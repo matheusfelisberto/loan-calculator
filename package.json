@@ -1,0 +1,33 @@
+{
+  "name": "loan-calculator",
+  "version": "0.0.1",
+  "description": "A simple loan calculator",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "babel src/ -d lib/",
+    "prepublish": "npm run build",
+    "flow": "flow"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matheusfelisberto/loan-calculator"
+  },
+  "author": "Matheus Felisberto <matheus.felisberto@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matheusfelisberto/loan-calculator/issues"
+  },
+  "homepage": "https://github.com/matheusfelisberto/loan-calculator#readme",
+  "dependencies": {
+    "ramda": "^0.25.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-flow": "^6.23.0",
+    "eslint": "^4.18.2",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.9.0",
+    "flow-bin": "^0.66.0"
+  }
+}
